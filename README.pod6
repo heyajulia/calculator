@@ -37,7 +37,7 @@ a starting point for more complex interpeters.
 
 =head2 License
 
-The code is licensed under the terms of the L<Artisitic License, version 2.0|
+The code is licensed under the terms of the L<Artistic License, version 2.0|
 https://www.perlfoundation.org/artistic-license-20.html>.
 
 =end pod
