@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# gen-readme -- convert README.pod6 to Markdown and write it to README.md.
+#
+# Dependencies:
+#
+# - Raku
+# - Pod::To::Markdown (zef install Pod::To::Markdown)
+# - Node.js
+
+raku --doc=Markdown README.pod6 | npx prettier --stdin-filepath README.md --prose-wrap always > README.md
